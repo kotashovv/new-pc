@@ -25,31 +25,53 @@
         background-color: var(--color-darkgray);
         border-radius: 30px;
         border: 1px solid #ffffff30;
+
+        .tags {
+            .green {
+                color: #fff;
+                border-color: #3ca301;
+            }
+
+            .red {
+                color: #fff;
+                border-color: #8a0000;
+            }
+
+            .blue {
+                border-color: var(--color-focus);
+            }
+        }
+
         .img {
             max-width: 280px;
             width: 100%;
             margin: 0 auto 20px;
+
             img {
                 display: block;
                 width: 100%;
             }
         }
+
         .name {
             display: flex;
             justify-content: space-between;
             align-items: stretch;
             margin-bottom: 10px;
+
             .name-text {
                 span {
                     color: var(--color-focus);
                     font-weight: 600;
                 }
+
                 h2 {
                     display: block;
                     margin: 0;
                     font-size: var(--font-text-l);
                 }
             }
+
             .price {
                 span {
                     font-size: var(--font-text-l);
@@ -57,10 +79,12 @@
             }
 
         }
+
         .tags {
             display: flex;
             gap: 4px;
             flex-wrap: wrap;
+
             span {
                 border: 1px solid #ffffff30;
                 padding: 5px;
@@ -69,21 +93,27 @@
                 display: block;
             }
         }
+
         .chars {
             margin-bottom: 20px;
+
             ul {
                 padding: 0;
                 margin: 0;
                 list-style: none;
+
                 li {
                     display: flex;
                     justify-content: space-between;
                     margin-bottom: 10px;
+
                     &:last-child {
                         margin-bottom: 0;
                     }
+
                     span {
                         font-size: 14px;
+
                         &:last-child {
                             opacity: .7;
                         }
@@ -91,16 +121,18 @@
                 }
             }
         }
+
         .action {
             display: flex;
             align-items: center;
             gap: 10px;
+
             a {
                 width: 50%;
                 text-align: center;
             }
         }
-        
+
     }
 }
 
@@ -117,11 +149,7 @@
 
 .tags {}
 
-.green {}
 
-.red {}
-
-.blue {}
 
 .img {}
 
