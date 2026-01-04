@@ -1,32 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/_normalize.css">
+    <link rel="stylesheet" href="assets/libs/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>Vital PC</title>
 </head>
+
 <body>
     <div class="wrapper">
         <header class="header">
             <div class="container">
                 <div class="header__body">
-                    <div class="header__logo">
-                        <a href="#">
-                            <p>VITAL<span>PC</span></p>
-                            <p></p>
-                        </a>
+                    <div class="nav-wrap">
+                        <div class="header__logo">
+                            <a href="#">
+                                <p>VITAL<span>PC</span></p>
+                                <p></p>
+                            </a>
+                        </div>
+                        <nav class="header__nav">
+                            <ul>
+                                <li>
+                                    <a href="#">Каталог</a>
+                                </li>
+                                <li>
+                                    <a href="#">Ремонт</a>
+                                </li>
+                                <li>
+                                    <a href="#">О компании</a>
+                                </li>
+                                <li>
+                                    <a href="#">Контакты</a>
+                                </li>
+                            </ul>
+                        </nav>
                     </div>
-                    <nav class="header__nav">
-
-                    </nav>
                     <div class="header__action">
-
-                    </div>
-                    <div class="header__cart">
-
-                    </div>
-                    <div class="header__mobile-btn">
-
+                        <a class="cart-btn" href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+                                viewBox="0 0 512 512"><!-- Icon from Subway Icon Set by Mariusz Ostrowski - https://creativecommons.org/licenses/by/4.0/ -->
+                                <path fill="currentColor"
+                                    d="M405.3 192L320 0h-42.7l85.3 192zM234.7 0H192l-85.3 192h42.7zm-192 469.3c0 23.5 19.1 42.7 42.7 42.7h341.3c23.5 0 42.7-19.1 42.7-42.7l21.3-192H21.3zm320-149.3h42.7L384 469.3h-42.7zm-128 0h42.7v149.3h-42.7zm-85.4 0l21.3 149.3H128L106.7 320zm341.4-106.7H21.3C9.5 213.3 0 222.9 0 234.7V256h512v-21.3c0-11.8-9.5-21.4-21.3-21.4" />
+                            </svg>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -34,10 +54,365 @@
         <main class="main">
             <section class="hero">
                 <div class="container">
+                    <div class="hero-swiper swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide" style="background-image: url(assets/imgs/1.webp);">
+                                <div class="text">
+                                    <h2>
+                                        Сборка ПК на заказ
+                                    </h2>
+                                    <h3>
+                                        VitalPC | Сборка ПК на заказ
+                                    </h3>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni laborum facilis
+                                        est error asperiores quod ut cupiditate placeat eos quisquam maxime voluptas
+                                        nihil veritatis temporibus vitae, excepturi repellat adipisci minima.
+                                        Accusantium officia ipsam placeat cumque nulla nostrum, beatae accusamus maxime!
+                                    </p>
+                                    <a class="main-btn" href="#">
+                                        Подробнее
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide" style="background-image: url(assets/imgs/1.webp);">
+                                <div class="text">
+                                    <h2>
+                                        Сборка ПК на заказ
+                                    </h2>
+                                    <h3>
+                                        VitalPC | Сборка ПК на заказ
+                                    </h3>
+                                    <p>
+                                        Собери свой ПК на заказ!
+                                    </p>
+                                    <a class="main-btn" href="#">
+                                        Подробнее
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide" style="background-image: url(assets/imgs/1.webp);">
+                                <div class="text">
+                                    <h2>
+                                        Сборка ПК на заказ
+                                    </h2>
+                                    <h3>
+                                        VitalPC | Сборка ПК на заказ
+                                    </h3>
+                                    <p>
+                                        Собери свой ПК на заказ!
+                                    </p>
+                                    <a class="main-btn" href="#">
+                                        Подробнее
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide" style="background-image: url(assets/imgs/1.webp);">
+                                <div class="text">
+                                    <h2>
+                                        Сборка ПК на заказ
+                                    </h2>
+                                    <h3>
+                                        VitalPC | Сборка ПК на заказ
+                                    </h3>
+                                    <p>
+                                        Собери свой ПК на заказ!
+                                    </p>
+                                    <a class="main-btn" href="#">
+                                        Подробнее
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="hero-pagination">
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="services">
+                <div class="container">
+                    <div class="services__title section__title">
+                        <h2 class="section-title">
+                            Для любых задач
+                        </h2>
+                        <p>
+                            Ознакомьтесь с нашими каталогом
+                        </p>
+                    </div>
+                    <div class="services__items">
+                        <div class="services__item">
+                            <div class="img">
+                                <img src="assets/imgs/item1-min.png" alt="">
+                            </div>
+                            <div class="title">
+                                <h3>
+                                    Компьютеры
+                                </h3>
+                            </div>
+                            <div class="action">
+                                <a href="#" class="main-btn trans-btn">Подробнее</a>
+                            </div>
+                            <div class="subtext">
+                                <span>
+                                    Широкий выбор для учебы, работы и игр
+                                </span>
+                            </div>
+                        </div>
+                        <div class="services__item">
+                            <div class="img">
+                                <img src="assets/imgs/item2-min.png" alt="">
+                            </div>
+                            <div class="title">
+                                <h3>
+                                    Ремонт
+                                </h3>
+                            </div>
+                            <div class="action">
+                                <a href="#" class="main-btn trans-btn">Подробнее</a>
+                            </div>
+                            <div class="subtext">
+                                <span>
+                                    Вернем жизнь вашему устройству
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="edge">
+                <div class="container">
+                    <div class="edge__items">
+                        <div class="edge__item">
+                            <div class="img">
+                                <img src="assets/imgs/e1.png" alt="">
+                            </div>
+                            <div class="title">
+                                <h4>
+                                    В любую точку РФ
+                                </h4>
+                            </div>
+                            <p>
+                                Доставляем по всей России
+                            </p>
+                        </div>
+                        <div class="edge__item">
+                            <div class="img">
+                                <img src="assets/imgs/e2.png" alt="">
+                            </div>
+                            <div class="title">
+                                <h4>
+                                    Гарантия
+                                </h4>
+                            </div>
+                            <p>
+                                Гарантируем качество товаров и работы
+                            </p>
+                        </div>
+                        <div class="edge__item">
+                            <div class="img">
+                                <img src="assets/imgs/e3.png" alt="">
+                            </div>
+                            <div class="title">
+                                <h4>
+                                    Лецензионный Windows
+                                </h4>
+                            </div>
+                            <p>
+                                Установим и настроим
+                            </p>
+                        </div>
+                        <div class="edge__item">
+                            <div class="img">
+                                <img src="assets/imgs/e4.png" alt="">
+                            </div>
+                            <div class="title">
+                                <h4>
+                                    Проверенные бренды
+                                </h4>
+                            </div>
+                            <p>
+                                Работаем только с проверенными производителями
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="catalog">
+                <div class="container">
+                    <div class="catalog__title section__title">
+                        <h2 class="section-title">
+                            Каталог
+                        </h2>
+                        <p>Мощные сборки по лучшим ценам</p>
+                    </div>
+                    <div class="catalog__items">
+                        <div class="catalog__item">
+                            <div class="tags">
+                                <span class="green">В наличии</span>
+                                <span class="red">Игровой</span>
+                                <span class="blue">Для учёбы</span>
+                            </div>
+                            <div class="img">
+                                <img src="assets/imgs/product1.webp" alt="">
+                            </div>
+                            <div class="name">
+                                <div class="name-text">
+                                    <span>Базовый</span>
+                                    <h2>Basic Game</h2>
+                                </div>
+                                <div class="price">
+                                    <span>45 000 ₽</span>
+                                </div>
+                            </div>
+                            <div class="chars">
+                                <ul>
+                                    <li>
+                                        <span>Процессор</span>
+                                        <span>Intel I3-13100f</span>
+                                    </li>
+                                    <li>
+                                        <span>Видеокарта</span>
+                                        <span>Nvidia RTX3050 8Gb</span>
+                                    </li>
+                                    <li>
+                                        <span>Озу</span>
+                                        <span>16Gb ddr4</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="action">
+                                <a class="main-btn" href="#">В корзину</a>
+                                <a class="main-btn trans-btn" href="#">Подробнее</a>
+                            </div>
+                        </div>
+                        <div class="catalog__item">
+                            <div class="tags">
+                                <span class="green">В наличии</span>
+                                <span class="red">Игровой</span>
+                                <span class="blue">Для учёбы</span>
+                            </div>
+                            <div class="img">
+                                <img src="assets/imgs/product1.webp" alt="">
+                            </div>
+                            <div class="name">
+                                <div class="name-text">
+                                    <span>Базовый</span>
+                                    <h2>Basic Game</h2>
+                                </div>
+                                <div class="price">
+                                    <span>45 000 ₽</span>
+                                </div>
+                            </div>
+                            <div class="chars">
+                                <ul>
+                                    <li>
+                                        <span>Процессор</span>
+                                        <span>Intel I3-13100f</span>
+                                    </li>
+                                    <li>
+                                        <span>Видеокарта</span>
+                                        <span>Nvidia RTX3050 8Gb</span>
+                                    </li>
+                                    <li>
+                                        <span>Озу</span>
+                                        <span>16Gb ddr4</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="action">
+                                <a class="main-btn" href="#">В корзину</a>
+                                <a class="main-btn trans-btn" href="#">Подробнее</a>
+                            </div>
+                        </div>
+                        <div class="catalog__item">
+                            <div class="tags">
+                                <span class="green">В наличии</span>
+                                <span class="red">Игровой</span>
+                                <span class="blue">Для учёбы</span>
+                            </div>
+                            <div class="img">
+                                <img src="assets/imgs/product1.webp" alt="">
+                            </div>
+                            <div class="name">
+                                <div class="name-text">
+                                    <span>Базовый</span>
+                                    <h2>Basic Game</h2>
+                                </div>
+                                <div class="price">
+                                    <span>45 000 ₽</span>
+                                </div>
+                            </div>
+                            <div class="chars">
+                                <ul>
+                                    <li>
+                                        <span>Процессор</span>
+                                        <span>Intel I3-13100f</span>
+                                    </li>
+                                    <li>
+                                        <span>Видеокарта</span>
+                                        <span>Nvidia RTX3050 8Gb</span>
+                                    </li>
+                                    <li>
+                                        <span>Озу</span>
+                                        <span>16Gb ddr4</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="action">
+                                <a class="main-btn" href="#">В корзину</a>
+                                <a class="main-btn trans-btn" href="#">Подробнее</a>
+                            </div>
+                        </div>
+                        <div class="catalog__item">
+                            <div class="tags">
+                                <span class="green">В наличии</span>
+                                <span class="red">Игровой</span>
+                                <span class="blue">Для учёбы</span>
+                            </div>
+                            <div class="img">
+                                <img src="assets/imgs/product1.webp" alt="">
+                            </div>
+                            <div class="name">
+                                <div class="name-text">
+                                    <span>Базовый</span>
+                                    <h2>Basic Game</h2>
+                                </div>
+                                <div class="price">
+                                    <span>45 000 ₽</span>
+                                </div>
+                            </div>
+                            <div class="chars">
+                                <ul>
+                                    <li>
+                                        <span>Процессор</span>
+                                        <span>Intel I3-13100f</span>
+                                    </li>
+                                    <li>
+                                        <span>Видеокарта</span>
+                                        <span>Nvidia RTX3050 8Gb</span>
+                                    </li>
+                                    <li>
+                                        <span>Озу</span>
+                                        <span>16Gb ddr4</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="action">
+                                <a class="main-btn" href="#">В корзину</a>
+                                <a class="main-btn trans-btn" href="#">Подробнее</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </section>
         </main>
     </div>
-    
+    <script src="assets/js/app.js"></script>
+    <script src="assets/libs/swiper-bundle.min.js"></script>
 </body>
+
 </html>

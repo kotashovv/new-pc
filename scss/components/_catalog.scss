@@ -1,0 +1,140 @@
+.catalog {
+
+    // .catalog__title
+
+    &__title {
+        margin-bottom: 40px;
+    }
+
+    // .catalog__items
+
+    &__items {
+        display: flex;
+        align-items: stretch;
+        flex-wrap: wrap;
+        margin: 0 -7.5px;
+    }
+
+    // .catalog__item
+
+    &__item {
+        margin: 0 7.5px 15px;
+        width: calc(33.33% - 15px);
+        padding: 30px 15px;
+        box-sizing: border-box;
+        background-color: var(--color-darkgray);
+        border-radius: 30px;
+        border: 1px solid #ffffff30;
+        .img {
+            max-width: 280px;
+            width: 100%;
+            margin: 0 auto 20px;
+            img {
+                display: block;
+                width: 100%;
+            }
+        }
+        .name {
+            display: flex;
+            justify-content: space-between;
+            align-items: stretch;
+            margin-bottom: 10px;
+            .name-text {
+                span {
+                    color: var(--color-focus);
+                    font-weight: 600;
+                }
+                h2 {
+                    display: block;
+                    margin: 0;
+                    font-size: var(--font-text-l);
+                }
+            }
+            .price {
+                span {
+                    font-size: var(--font-text-l);
+                }
+            }
+
+        }
+        .tags {
+            display: flex;
+            gap: 4px;
+            flex-wrap: wrap;
+            span {
+                border: 1px solid #ffffff30;
+                padding: 5px;
+                font-size: var(--font-text-s);
+                border-radius: 10px;
+                display: block;
+            }
+        }
+        .chars {
+            margin-bottom: 20px;
+            ul {
+                padding: 0;
+                margin: 0;
+                list-style: none;
+                li {
+                    display: flex;
+                    justify-content: space-between;
+                    margin-bottom: 10px;
+                    &:last-child {
+                        margin-bottom: 0;
+                    }
+                    span {
+                        font-size: 14px;
+                        &:last-child {
+                            opacity: .7;
+                        }
+                    }
+                }
+            }
+        }
+        .action {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            a {
+                width: 50%;
+                text-align: center;
+            }
+        }
+        
+    }
+}
+
+.container {}
+
+.section {
+
+    // .section__title
+
+    &__title {}
+}
+
+.section-title {}
+
+.tags {}
+
+.green {}
+
+.red {}
+
+.blue {}
+
+.img {}
+
+.name {}
+
+.name-text {}
+
+.price {}
+
+.chars {}
+
+.action {}
+
+.main-btn {}
+
+.trans-btn {}

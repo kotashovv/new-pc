@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+
+:root {
+    --color-black: #121212;
+    --color-white: #fff;
+    --color-black-gray: #292929;
+    --color-focus: #2563EB;
+    --color-darkgray: #1f1f1f;
+    --font-title: 48px;
+    --font-text-m: 16px;
+    --font-text-l: 22px;
+    --font-text-s: 14px;
+}
+
+body {
+    font-family: "Manrope", sans-serif;
+    background-color: var(--color-black);
+    color: var(--color-white);
+    padding-top: 60px;
+}
+
+.container {
+    max-width: 1360px;
+    padding: 0 15px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+@import 'components/header';
+@import 'components/hero';
+@import 'components/services';
+@import 'components/edge';
+@import 'components/catalog';
+
+.main-btn {
+    color: #fff;
+    background-color: var(--color-focus);
+    font-size: 16px;
+    padding: 15px 30px;
+    display: block;
+    width: fit-content;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: .35s ease;
+    &:hover {
+        background-color: #2051bb;
+    }
+    &.trans-btn {
+        background-color: var(--color-darkgray);
+        color: #fff;
+        border: 1px solid #ffffff30;
+        
+        &:hover {
+            background-color: #333333;
+        }
+    }
+}
+
+.section{ 
+    &__title {
+        h2, h3, h4, h5 {
+            display: block;
+            font-size: var(--font-title);
+            margin: 0;
+            display: block;
+        }
+        p {
+            font-size: 14px;
+            margin: 0;
+            display: block;
+        }
+    }
+}
