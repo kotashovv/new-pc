@@ -1,0 +1,54 @@
+.other {
+    padding: 40px 0;
+    box-sizing: border-box;
+    // .other__title
+
+    &__title {}
+
+    // .other__items
+
+    &__items {
+        display: flex;
+        align-items: stretch;
+        justify-content: center;
+        gap: 20px;
+        padding-top: 20px;
+    }
+
+    // .other__item
+
+    &__item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 50%;
+        
+        .img {
+            max-width: 420px;
+            img {
+                display: block;
+                width: 100%;
+            }
+        }
+    }
+}
+
+.container {}
+
+.section {
+
+    // .section__title
+
+    &__title {}
+}
+
+.section-title {}
+
+.img {}
+
+.name {}
+
+.action {}
+
+.main-btn {}
