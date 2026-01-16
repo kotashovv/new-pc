@@ -7,4 +7,9 @@ document.addEventListener('DOMContentLoaded', ()=>{
             el: '.hero-pagination',
         }
     })
+
+    const reviewsSlider = new Swiper('.reviews__swiper', {
+        slidesPerView: 1.2, 
+        spaceBetween: 15,
+    });
 })

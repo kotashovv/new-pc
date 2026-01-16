@@ -35,6 +35,8 @@ body {
 @import 'components/other';
 @import 'components/feedback';
 @import 'components/single';
+@import 'components/contacts';
+@import 'components/repair';
 
 .main-btn {
     color: #fff;
@@ -46,6 +48,7 @@ body {
     border-radius: 30px;
     text-decoration: none;
     transition: .35s ease;
+    border: none;
     &:hover {
         background-color: #2051bb;
     }

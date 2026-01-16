@@ -1,0 +1,93 @@
+.contacts {
+    padding: 60px 0 40px;
+    // .contacts__body
+
+    &__body {
+        display: flex;
+        padding: 20px 40px;
+        border: 1px solid #ffffff30;
+        align-items: stretch;
+        background-color: var(--color-darkgray);
+        border-radius: 30px;
+        height: 240px;
+
+    }
+
+    .text {
+        width: 60%;
+        margin-right: 20px;
+        font-size: 14px;
+        a {
+            color: var(--color-focus);
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: 500;
+        }
+    }
+
+    .emeil {}
+
+    .map {
+        iframe {
+            height: 100%;
+            filter: invert(1);
+            overflow: hidden;
+            border-radius: 15px;
+        }
+    }
+
+}
+
+.contacts {
+
+		// .contacts__detail
+
+		&__detail {
+            display: flex;
+            gap: 20px;
+            box-sizing: border-box;
+            margin-top: 20px;
+            .detail {
+                border: 1px solid #ffffff30;
+                background-color: var(--color-darkgray);
+                border-radius: 30px;
+                width: 50%;
+                padding: 20px 40px;
+                &:last-child {
+                    ul {
+                        padding: 0;
+                        margin: 0;
+                        list-style: none;
+                        li {
+                            margin-bottom: 10px;
+                            &:last-child {
+                                margin-bottom: 0;
+                            }
+                            a {
+                                color: #fff;
+                            }
+                        }
+                    }
+                }
+                h2 {
+                    display: block;
+                    font-size: 18px;
+                    margin: 0;
+                    display: block;
+                    margin-bottom: 20px;
+                }
+                h3 {
+                    display: block;
+                    margin: 0;
+                    margin-bottom: 10px;
+                    font-size: 14px;
+                    
+                    &:last-child {
+                        margin-bottom: 0;
+                    }
+                }
+            }
+		}
+}
+.detail {
+}
